@@ -1,0 +1,19 @@
+.side-effects-help-container {
+  width: 25%;
+  padding-left: 10px;
+  background-color: #42418a;
+}
+
+.side-effects {
+  list-style: none;
+  padding-left: 0;
+}
+
+.side-effects li {
+  display: flex;
+  align-items: center;
+}
+
+.side-effect-icon {
+  width: 30px;
+}

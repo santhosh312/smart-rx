@@ -1,0 +1,51 @@
+.med-details {
+  width: 25%;
+  background-color: #2b5c58;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.appearance-reason {
+  display: flex;
+  flex-direction: column;
+}
+
+.med-name {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.appearance {
+  display: flex;
+  align-self: center;
+}
+
+.appearance-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 40%;
+}
+
+.appearance-image-true {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.appearance-image-true img {
+  width: 50%;
+  align-self: center;
+}
+
+.appearance-image img {
+  width: 100%;
+}
+
+hr {
+  width: 100%;
+  border: 0.25px solid #99999940;
+}

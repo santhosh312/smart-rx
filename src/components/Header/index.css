@@ -1,0 +1,62 @@
+.header-container {
+  padding: 10px;
+  background-color: #1a3052;
+  border-bottom: 1px dashed black;
+}
+
+.header-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.medications-text {
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.capsule-icon {
+  width: 32px;
+  margin-right: 10px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.left-side h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.right-side {
+  display: flex;
+}
+
+.info {
+  margin-right: 20px;
+}
+
+.info-title {
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #999999;
+}
+
+.info-answer {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  color: #ebf6f7;
+}
+
+hr {
+  border: 1px solid gray;
+  border-style: dashed;
+}

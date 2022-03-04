@@ -1,0 +1,55 @@
+.timeline-container {
+  height: 70px;
+  margin-top: auto;
+  display: flex;
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+
+.sun-icon {
+  align-self: flex-end;
+}
+
+.sun-icon img {
+  height: 15px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.timeline-chunk {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.vertical-line {
+  height: 20px;
+  border: 0.25px solid gray;
+  width: 0;
+}
+
+.med-icons {
+  height: 20px;
+}
+
+.med-icons img {
+  padding-bottom: 5px;
+  height: 100%;
+}
+
+.timeline-bar {
+  height: 20px;
+  width: 100%;
+  background: #91a3b0;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media print {
+  .timeline-bar {
+    border: 1px solid gray;
+  }
+}
